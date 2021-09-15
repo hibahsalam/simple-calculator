@@ -1,0 +1,120 @@
+#container{
+    width: 1200px;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(b.webp);
+    background-repeat: no-repeat;
+    background-size: 1200px 800px;
+    margin: 8px auto;
+}
+#calculator{
+  width: 300px;
+  height: 550px;
+  background-color: #eaedef;
+  margin: 0 auto;
+  top: 25px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+#text-box{
+  margin: 0 10px 10px 10px;
+  height: 120px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: #B2BABB;/*#dcdfe0;*/
+}
+#history{
+  text-align: right;
+  margin: 10px 20px;
+  height: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+	color: #919191;
+}
+#output{
+  text-align: right;
+  margin: 10px 10px;
+  height: 20px;
+  padding-top: 5px;
+  font-size: 35px;
+	color: #5c5d5e;
+}
+#keyboard{
+  padding: 10px 10px 10px 10px;
+  margin: 10px auto;
+  height: 400px;
+}
+#history-value{
+  border: 0;
+  text-align: right;
+  height: 40px;
+  width: 250px;
+  padding-top:30px;
+  color: #919191;
+	background-color: #eaedef;
+}
+.operator, .number{
+  width: 40px;
+	height: 40px;
+	margin: 15px 15px 15px 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .operator{
+	cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus{
+	outline: 0;
+}
+button:nth-child(1){
+	background-color: #d3d8db;
+}
+button:nth-child(2){
+	background-color: #d3d8db;
+}
+button:nth-child(3){
+	background-color: #d3d8db;
+}
+button:nth-child(4){
+	font-size: 20px;
+  background-color: #27AE60;
+	/*background-color: #20b2aa;*/
+}
+button:nth-child(8){
+	font-size: 20px;
+  background-color: #2980B9;
+	/*background-color: #7d93e0;*/
+}
+button:nth-child(12){
+	font-size: 20px;
+  background-color: #E74C3C;
+	/*background-color: #f08080;*/
+}
+button:nth-child(16){
+	font-size: 20px;
+  background-color: #F4D03F;
+	/*background-color: #ffa500;*/
+}
+button:nth-child(21){
+  width: 250px;
+	height: 40px;
+	margin: 0 15px 15px 15px;
+	float: left;
+	border-width: 0;
+  border-radius: 20px;
+	font-weight: bold;
+	font-size: 25px;
+  background-color: #6C3483;
+	/*background-color: #9477af;*/
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
